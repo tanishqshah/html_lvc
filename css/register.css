@@ -1,0 +1,14 @@
+form > *{
+    margin-top: 10px;
+    border-radius: .5rem;
+}
+.content{
+    padding: 20px;
+    background-color: lavender;
+    color: rgb(181, 136, 51);
+    border-radius: 1rem;
+}
+label{
+    font-weight: bold;
+    margin-right: 20px;
+}

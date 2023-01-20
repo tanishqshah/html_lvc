@@ -1,0 +1,29 @@
+.hvr:hover{
+    color: white ;
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.css3{
+    box-shadow: 10px;
+}
+a:hover{
+    background-color: gold ;
+    text-color: black;
+    border-radius: 0.4rem;
+}
+/* .box{
+    margin: 50px;
+    width: 150px;
+    height: 100px;
+    background-color: lavender;
+    position:relative;
+    animation-name:moveit;
+    animation-duration: 4s;
+}
+@keyframes moveit{
+    from{left:-50%;}
+    to{left: -10%;}
+} */
+

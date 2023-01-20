@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/question.css">
+    <!-- <style></style> -->
+    <script>
+        function func1() {
+            var marks = 0;
+            if (form1.selector.value == 'a')
+                marks = marks + 2;
+            if (form1.selector1.value == 'b')
+                marks = marks + 2;
+            document.getElementById("result").innerHTML = marks;
+        }
+    </script>
+</head>
+
+<body>
+    <div style="padding-left: 39%; padding-top: 20px; font-size: xx-large;">
+        Multiple Choice Question
+    </div>
+    <form action="" name="form1">
+        <div class="container">
+            <div class="mcq-card">
+                <h2 style="padding-left: 15px;">JavaScript:</h2>
+
+                <ul class="mcq-list">
+                    <li class="mcq-li">
+                        <input type="radio" id="f-option" name="selector" value="a">
+                        <label for="f-option">used for Dynamic Web page</label>
+                    </li>
+
+                    <li class="mcq-li">
+                        <input type="radio" id="s-option" name="selector" value="b">
+                        <label for="s-option">Used for Static Web page</label>
+                    </li>
+
+                    <li class="mcq-li">
+                        <input type="radio" id="t-option" name="selector" value="c">
+                        <label for="t-option">ALL</label>
+                    </li>
+
+                    <li class="mcq-li">
+                        <input type="radio" id="n-option" name="selector" value="d">
+                        <label for="t-option">None</label>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="mcq-card">
+                <h2 style="padding-left: 15px;">Node js is:</h2>
+
+                <ul class="mcq-list">
+                    <li class="mcq-li">
+                        <input type="radio" id="a-option" name="selector1" value="a">
+                        <label for="a-option">Client side Applications only</label>
+                    </li>
+
+                    <li class="mcq-li">
+                        <input type="radio" id="b-option" name="selector1" value="b">
+                        <label for="b-option">Server side only</label>
+                    </li>
+
+                    <li class="mcq-li">
+                        <input type="radio" id="c-option" name="selector1" value="c">
+                        <label for="c-option">ALL</label>
+                    </li>
+
+                    <li class="mcq-li">
+                        <input type="radio" id="d-option" name="selector1" value="d">
+                        <label for="d-option">None</label>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+    </form>
+    <div class="container">
+        <button onclick="func1()">Calculate</button>
+        <!-- <h1 id="result"></h1> -->
+    </div>
+    <br>
+    <div class="container">
+        <!-- <button onclick="func1()">Calculate</button> -->
+        <h1 id="result" style="color: green;"></h1>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+#photogallery{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 5px 10px gray;
+}
+.brdr:hover{
+
+    border-radius: 10px;
+    box-shadow: 2px 3px lightcoral;
+}
+.t1{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+}
+td{
+    padding: 20px;
+}
+
+.brdr1:hover{
+    opacity: 0.5;
+    border-radius: 5px;
+    box-shadow: 2px 3px lightgrey;
+}
+
+.brdr2:hover{
+    filter: sepia(1);
+    box-shadow: 2px 3px lightsalmon;
+}
