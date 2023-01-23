@@ -1,4 +1,4 @@
-<html lang="en">
+<!-- <html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -100,6 +100,184 @@
                 </div>
         </article>
     </section>
+    </div>
+</body>
+
+</html> -->
+
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/common.css">
+    <style>
+        body {
+            /* color: purple; */
+        }
+
+        section {
+            padding-left: 10%;
+        }
+
+        article {
+            width: 50%;
+            /* margin-bottom: 10%; */
+        }
+
+        /* @media (max-width:1200px){ */
+        /* p{
+                column-count: 2;
+            column-gap: 10px;
+            column-rule: 2px solid lavender;
+            } */
+        /* } */
+        p {
+            text-align: justify;
+        }
+
+        p {
+            /* width: 100px;
+        height: 100px;
+        background: red; */
+            position: relative;
+        }
+
+        p:hover {
+            animation: myfirst 0.5s 1;
+            animation-direction: reverse;
+        }
+
+        @keyframes myfirst {
+            0% {
+                left: 0px;
+                top: 0px;
+            }
+
+            100% {
+                left: 200px;
+                top: 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color: lightcyan;">
+        <nav id="sub-nav" class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent"
+                    style="background-color:lavender; width:60%">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active navanch" aria-current="page" href="#music">Music</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active navanch" aria-current="page" href="#dance">Dance</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active navanch" aria-current="page" href="#sports">Sports</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active navanch" aria-current="page" href="#movies">Movies</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- <nav id="sub-nav">
+        <ul>
+            <li style="display:inline-block;margin-right: 10px;text-decoration: none;"><a href="#music" target="frm1">Music</a></li>&nbsp;
+            <li style="display:inline-block;margin-right: 10px;text-decoration: none;"><a href="#dance" target="frm1">Dance</a>&nbsp;
+            <li style="display:inline-block;margin-right: 10px;text-decoration: none;"><a href="#sports" target="frm1">Sports</a></li>&nbsp;
+            <li style="display:inline-block;margin-right: 10px;text-decoration: none;"><a href="#movies" target="frm1">Movies</a></li>&nbsp;
+        </ul>
+    </nav> -->
+        <a href="#sub-nav" class="navanch p-3"
+            style="position: fixed;z-index: 100; bottom: 30vh; right:10%;background-color: lavender; border-radius: 2rem;">
+            Go to top
+        </a>
+        <section>
+            <article class="mt-5 mb-5">
+                <h2 id="music" style="color:purple">Music</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugit eligendi repellendus
+                    impedit
+                    culpa exercitationem unde deserunt eum ullam. Culpa fuga quo tenetur nihil consequuntur voluptas
+                    impedit
+                    similique blanditiis repellat.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugit eligendi repellendus
+                    impedit culpa exercitationem unde deserunt eum ullam. Culpa fuga quo tenetur nihil consequuntur
+                    voluptas
+                    impedit similique blanditiis repellat.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugit eligendi repellendus
+                    impedit culpa exercitationem unde deserunt eum ullam. Culpa fuga quo tenetur nihil consequuntur
+                    voluptas
+                    impedit similique blanditiis repellat.</p>
+
+            </article>
+            <article class="mt-5 mb-5">
+                <h2 id="dance" style="color:purple">Dance</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugit eligendi repellendus
+                    impedit
+                    culpa exercitationem unde deserunt eum ullam. Culpa fuga quo tenetur nihil consequuntur voluptas
+                    impedit
+                    similique blanditiis repellat.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugit eligendi repellendus
+                    impedit culpa exercitationem unde deserunt eum ullam. Culpa fuga quo tenetur nihil consequuntur
+                    voluptas
+                    impedit similique blanditiis repellat.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugit eligendi repellendus
+                    impedit culpa exercitationem unde deserunt eum ullam. Culpa fuga quo tenetur nihil consequuntur
+                    voluptas
+                    impedit similique blanditiis repellat.</p>
+            </article>
+            <article class="mt-5 mb-5">
+                <h2 id="sports" style="color:purple">Sports</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugit eligendi repellendus
+                    impedit
+                    culpa exercitationem unde deserunt eum ullam. Culpa fuga quo tenetur nihil consequuntur voluptas
+                    impedit
+                    similique blanditiis repellat.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugit eligendi repellendus
+                    impedit culpa exercitationem unde deserunt eum ullam. Culpa fuga quo tenetur nihil consequuntur
+                    voluptas
+                    impedit similique blanditiis repellat.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugit eligendi repellendus
+                    impedit culpa exercitationem unde deserunt eum ullam. Culpa fuga quo tenetur nihil consequuntur
+                    voluptas
+                    impedit similique blanditiis repellat.</p>
+            </article>
+            <article class="mt-5 mb-5">
+                <h2 id="movies" style="color:purple">Movies</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugit eligendi repellendus
+                    impedit
+                    culpa exercitationem unde deserunt eum ullam. Culpa fuga quo tenetur nihil consequuntur voluptas
+                    impedit
+                    similique blanditiis repellat.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugit eligendi repellendus
+                    impedit culpa exercitationem unde deserunt eum ullam. Culpa fuga quo tenetur nihil consequuntur
+                    voluptas
+                    impedit similique blanditiis repellat.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugit eligendi repellendus
+                    impedit culpa exercitationem unde deserunt eum ullam. Culpa fuga quo tenetur nihil consequuntur
+                    voluptas
+                    impedit similique blanditiis repellat.</p>
+            </article>
+        </section>
     </div>
 </body>
 
